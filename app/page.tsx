@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { HomeDesktopFooter } from "./components/footers/HomeDesktopFooter";
 
 export default function Home() {
   return (
