@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Fragment_Mono } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
+import {HomeDesktopFooter} from "./components/footers/HomeDesktopFooter";
+import {MobileDesktopFooter} from "./components/footers/MobileDesktopFooter";
+import { DefaultDesktopFooter } from "./components/footers/DefaultDesktopFooter";
+import { ContactUsFooter } from "./components/footers/ContactUsFooter";
 
 const neueMontreal = localFont({
   variable: "--font-neue-montreal",
@@ -70,6 +74,11 @@ export default function RootLayout({
         className={`${fragmentMono.variable} ${neueMontreal.variable} ${productSans.variable} antialiased`}
       >
         {children}
+        {/* <HomeDesktopFooter /> */}
+        {/* <MobileDesktopFooter />
+      
+        <DefaultDesktopFooter /> */}
+        <ContactUsFooter />
       </body>
     </html>
   );
