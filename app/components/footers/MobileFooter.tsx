@@ -33,8 +33,9 @@ export function MobileFooter() {
                       </span>
             
                       <div className="flex items-center gap-12 mt-3">
+                        {/* TODO: update x link */}
                         <Link
-              href="https://x.com/YOUR_HANDLE"
+              href="https://x.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="X (Twitter)"
@@ -45,7 +46,7 @@ export function MobileFooter() {
             </Link>
 
             <Link
-              href="https://www.instagram.com/gdsc_nsut/"
+              href="https://www.instagram.com/gdgnsut"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -65,10 +66,10 @@ export function MobileFooter() {
             </Link>
 
             <Link
-              href="https://www.linkedin.com/company/gdscnsut/"
+              href="https://discord.gg/WtqbaUzgR"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Instagram"
+              aria-label="Discord"
               className="hover:opacity-80 transition"
               >
                 <Image src="/footers-icons/HomeFooterIcons/Discord.svg" alt="Discord" width={28} height={28} />

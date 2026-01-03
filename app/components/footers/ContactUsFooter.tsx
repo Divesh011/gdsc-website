@@ -28,7 +28,7 @@ export function ContactUsFooter() {
                 <div className="flex item-end gap-4">
                     <div className="flex items-center gap-10">
                         <Link
-                            href="https://www.instagram.com/gdsc_nsut/"
+                            href="https://www.instagram.com/gdgnsut"
                             target="_blank"
                             rel="noopener noreferrer"
                             aria-label="Instagram"
@@ -41,7 +41,7 @@ export function ContactUsFooter() {
                             href="https://github.com/GDSC-NSUT"
                             target="_blank"
                             rel="noopener noreferrer"
-                            aria-label="Instagram"
+                            aria-label="GitHub"
                             className="hover:opacity-80 transition"
                         >
 
@@ -52,7 +52,7 @@ export function ContactUsFooter() {
                         href="https://www.linkedin.com/company/gdscnsut/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Instagram"
+                        aria-label="LinkedIn"
                         className="hover:opacity-80 transition"
                         >
 
@@ -60,10 +60,10 @@ export function ContactUsFooter() {
                         </Link>
 
                         <Link
-                        href="https://www.instagram.com/gdsc_nsut/"
+                        href="https://discord.gg/WtqbaUzgR"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Instagram"
+                        aria-label="discord"
                         className="hover:opacity-80 transition"
                         >
                             <Image src="/footers-icons/ContactUsFooterIcons/discord.svg" alt="Discord" width={45} height={45} />
