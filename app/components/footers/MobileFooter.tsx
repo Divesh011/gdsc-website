@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export function MobileDesktopFooter() {
+// this Footer is for Mobile view. Use MobileFooter for all pages Mobile view
+// add this footer in every page layout along with respective Desktop footers
+export function MobileFooter() {
     return (
         <footer className="font-[var(--font-product-sans)] block md:hidden bg-[#1D1D1D] text-white">
             <div className="max-w-7xl mx-auto px-8 py-10 flex-col items-center justify-between">

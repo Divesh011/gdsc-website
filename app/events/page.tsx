@@ -3,6 +3,8 @@
 import { useState, useMemo } from 'react';
 import { EventCard, FilterBar, PageHero } from '@/app/components/events';
 import eventsData from '@/data/events.json';
+import { DefaultDesktopFooter } from '../components/footers/DefaultDesktopFooter';
+import { MobileFooter } from '../components/footers/MobileFooter';
 
 export default function EventsPage() {
   // Filter state
@@ -92,7 +94,10 @@ export default function EventsPage() {
             </div>
           )}
         </div>
+        {/* Footer */}
       </main>
+    <DefaultDesktopFooter />
+    <MobileFooter />
     </div>
   );
 }

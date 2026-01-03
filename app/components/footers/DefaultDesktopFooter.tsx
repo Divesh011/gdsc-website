@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// This footer is for Default Desktop view. Use this footer for all pages Desktop view except Home page and Contact Us page
 export function DefaultDesktopFooter() {
     return (
         <footer className="font-[var(--font-product-sans)] hidden md:block bg-[#383838] text-white">

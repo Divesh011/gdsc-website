@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// This footer is for Contact Us Page Desktop view. Use this footer only for Contact Us Page Desktop view
 export function ContactUsFooter() {
     return (
         <footer className="font-[var(--font-product-sans)] hidden md:block bg-[#FFFFFF]">
